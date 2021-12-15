@@ -1,0 +1,7 @@
+.header__lang {
+  margin-top: 18px;
+  display: flex;
+  justify-content: right;
+}
+
+/* лишний класс */

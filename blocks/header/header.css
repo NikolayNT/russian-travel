@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 92.5%/*1184px*/; /* 92.5% ?*/
+  min-height: 52px;
+  /* добавить в элемент или модификатор для отступов*/
+  margin: 28px auto 56px;
+  
+  /* margin для 1024, 1280 */
+  /*margin-left: calc(48px + auto);*/
+  /*margin: 28px auto/*48px*/ /*56px;
+  padding: 0 48px;*/
+}
+
+/* нужен ли сектион */

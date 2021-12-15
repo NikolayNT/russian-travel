@@ -1,0 +1,14 @@
+.header__lang-link {
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  /* cтиль и  тип шрифта */
+  margin-right: 18px;
+}
+
+/* нужен ли список */
+/* доработать ссылки */
+
+.header__lang-link:last-of-type {
+  margin-right: 0;
+}
