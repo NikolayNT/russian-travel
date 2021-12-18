@@ -1,0 +1,19 @@
+.place__paragraph {
+  width: 484px;
+  /*min-height: 145px;*/
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+  margin: 0;
+  margin-bottom: 26px;
+  color: #FFFFFF;
+}
+
+.top {
+  align-self: start;
+ /* margin-top: 48px;*/
+}

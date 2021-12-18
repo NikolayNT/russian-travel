@@ -1,0 +1,20 @@
+.place {
+  /*display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;*/
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 48px 40px;
+  width: 984px;
+  /*height: 660px;*/
+  margin-bottom: 80px;
+  border: 1px solid red;
+  /*align-items: flex-end;*/
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
+}
+
+/* последний */

@@ -1,0 +1,13 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  width: 984px;
+  margin: auto;
+  margin-top: 92px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
