@@ -1,14 +1,19 @@
 .header__lang-link {
+  text-decoration: none;
   font-size: 24px;
   line-height: 28px;
-  color: #FFFFFF;
-  /* cтиль и  тип шрифта */
   margin-right: 18px;
+  color: #FFFFFF;
 }
-
-/* нужен ли список */
-/* доработать ссылки */
 
 .header__lang-link:last-of-type {
   margin-right: 0;
+}
+
+/*до 425 пикселей — мобильные устройства*/
+@media all and (min-width: 320px) and (max-width: 424px) {
+  .header__lang-link {
+  font-size: 18px;
+  line-height: 20px;
+  }
 }

@@ -1,3 +1,11 @@
+/*-- добавлена вставка для селектора p --*/
+
+p {
+  margin: 0;
+}
+
+/*-- конец вставки для селектора p --*/
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document

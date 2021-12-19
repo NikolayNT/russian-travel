@@ -1,14 +1,46 @@
-header {
+.header {
   display: flex;
   justify-content: space-between;
-  /* не работает */
-  /*width: calc(100%-96px);*/ /* ширина для 1024, 1280 */
-  min-height: 52px;
-  /* добавить в элемент или модификатор для отступов*/
-  margin: 0 48px 0;
-  
-  padding: 28px 0 56px;
-  /* margin для 1024, 1280 */
-  /* нужен ли сектион */
-  /* заголовки */
+  max-height: 52px;
+  min-height: 42px;
+  margin: 0 48px 56px;
+  max-width: 1184px;
+  min-width: 288px;
+  padding-top: 28px;
+}
+
+/*от 1280 пикселей — от стандартных ноутбуков и до бесконечности*/
+@media all and (min-width: 1280px) {
+  .header {
+    margin: 0 auto 56px;
+  }
+}
+
+/*от 1024 и до 1280 — для небольших ноутбуков*/
+@media all and (min-width: 1024px) and (max-width: 1279px)  {
+  .header {
+    margin-bottom: 48px;
+  }
+}
+
+/*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    margin: 0 24px 48px;
+  }
+}
+
+/*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
+@media all and (min-width: 425px) and (max-width: 767px) {
+  .header {
+    margin: 0 5% 48px;
+  }
+}
+
+/*до 425 пикселей — мобильные устройства*/
+@media all and (min-width: 320px) and (max-width: 424px) {
+  .header {
+    margin: 0 16px 48px;
+    padding-top: 16px;
+  }
 }
