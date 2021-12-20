@@ -1,35 +1,42 @@
 .place__image {
-  width: 460px;
-  /*height: 1fr;*/
-  /*margin-left: 0;
-  margin-bottom: 0;
-  /*margin-top: 48px;
-  margin-right: 40px;*/
+  max-width: 460px;
+  max-height: 460px;
+  object-fit: cover;
+  object-position: center;
 }
-
-
-
-/*от 1280 пикселей — от стандартных ноутбуков и до бесконечности*/
-@media all and (min-width: 1280px) {
-
-} 
 
 /*от 1024 и до 1280 — для небольших ноутбуков*/
 @media all and (min-width: 1024px) and (max-width: 1279px)  {
-   
+  .place__image {
+    width: 440px;
+    height: 440px;
+  } 
 }
 
 /*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
 }
 
 /*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
 @media all and (min-width: 425px) and (max-width: 767px) {
-  
+  .place__image {
+    /*width: 100%;
+    height: 100vw;*/
+    width: 340px;
+    height: 340px;
+    margin: 0 16px;
+  }
 }
 
 /*до 425 пикселей — мобильные устройства*/
-@media all and (min-width: 320px) and (max-width: 424px) {
-  
+@media all and (max-width: 424px) {
+  .place__image {
+    width: 100%;
+    height: 100vw;
+    margin: 0 auto;
+  }
 }

@@ -1,0 +1,16 @@
+.footer__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /*до 768 пикселей — от большого смартфона до вертикального положения планшета*/
+  @media all and (max-width: 767px) {
+    .footer__list {
+        flex-direction: column;
+    }
+  }
