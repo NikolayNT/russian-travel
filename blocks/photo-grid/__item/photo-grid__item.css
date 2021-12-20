@@ -1,31 +1,27 @@
 .photo-grid__item {
-    width: 284px;
-    height: 213px;
+  width: 100%;
+  height: 213px;
+  object-fit: cover;
+  object-position: center;
 }
-
-
-
-/*от 1280 пикселей — от стандартных ноутбуков и до бесконечности*/
-@media all and (min-width: 1280px) {
-
-} 
 
 /*от 1024 и до 1280 — для небольших ноутбуков*/
 @media all and (min-width: 1024px) and (max-width: 1279px)  {
-   
+  .photo-grid__item {
+    height: 225px;
+  }
 }
 
 /*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  
+  .photo-grid__item {
+    height: 264px;
+  }
 }
 
-/*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
-@media all and (min-width: 425px) and (max-width: 767px) {
-  
-}
-
-/*до 425 пикселей — мобильные устройства*/
-@media all and (min-width: 320px) and (max-width: 424px) {
-  
+/*до 768 пикселей — от большого смартфона до вертикального положения планшета*/
+@media all and (max-width: 767px) {
+  .photo-grid__item {
+    height: 216px;
+  }
 }
