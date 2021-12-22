@@ -7,7 +7,7 @@
   font-size: 18px;
   line-height: 163%;
   /* or 29px */
-  margin-top: 26px;
+  margin: 26px 0 0;
   color: #FFFFFF;
 }
 
@@ -30,7 +30,7 @@
   }
 }
 
-/*до 768 пикселей — от большого смартфона до вертикального положения планшета*/
+/*до 768 пикселей до вертикального положения планшета*/
 @media all and (max-width: 767px) {
   .place__paragraph {
     margin: 25px 16px 0;

@@ -1,5 +1,6 @@
 .footer__copyright {
   width: 186px;
+  margin: 0;
   max-height: 16px;
   min-height: 14px;
   font-family: Inter;
@@ -8,7 +9,6 @@
   font-size: 14px;
   line-height: 16px;
   /* identical to box height, or 114% */
-  margin: 0;
   text-align: right;
   color: #FFFFFF;
 }
