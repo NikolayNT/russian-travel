@@ -1,6 +1,9 @@
 /* сторонний код */ 
 @import url(../vendor/normalize.css);
 
+/* шрифты */
+@import url(../vendor/fonts/fonts.css);
+
 /* корневые стили */
 @import url(../blocks/root/root.css);
 
