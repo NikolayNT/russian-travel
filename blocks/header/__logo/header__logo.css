@@ -6,6 +6,10 @@
   background-size: 100%;
 }
 
+.header__logo:hover {
+  opacity: 0.8;
+}
+
 /*до 425 пикселей — мобильные устройства*/
 @media all and (max-width: 424px) {
   .header__logo {

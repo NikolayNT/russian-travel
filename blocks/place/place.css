@@ -10,3 +10,14 @@
 .place:last-of-type {
   margin-bottom: 0;
 }
+
+/*до 768 пикселей — от большого смартфона до вертикального положения планшета*/
+@media all and (max-width: 767px) {
+  .place {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+}
+
+/*на разрешении 746 пикселей*/

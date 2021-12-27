@@ -1,9 +1,42 @@
 .cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   max-width: 1184px;
   min-width: 320px;
-  max-height: 740px;
-  min-height: 200px;
-  position: relative;
+  min-height: 740px;
   margin: 92px auto 0;
-  transition: margin-bottom 2s ease 0.1s;
+  background: url(../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*от 1024 и до 1280 — для небольших ноутбуков*/
+@media all and (min-width: 1024px) and (max-width: 1279px)  {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+/*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+/*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
+@media all and (max-width: 767px) {
+  .cover {
+    min-height: 340px;
+  }
+}
+
+/*до 425 пикселей*/
+@media all and (max-width: 425px) {
+  .cover {
+    min-height: 200px;
+  }
 }

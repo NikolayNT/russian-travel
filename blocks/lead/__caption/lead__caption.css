@@ -1,6 +1,6 @@
 .lead__caption {
-  min-width: 158px; /* ? */
-  height: 14px;
+  min-width: 158px;
+  min-height: 14px;
   margin: 8px 0 0;
   font-family: Inter;
   font-style: normal;

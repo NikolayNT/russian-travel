@@ -15,7 +15,7 @@
   }  
 } 
 
-/*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
+/*до 1024 пикселей — от вертикального до горизонтального положения планшета*/
 @media all and (max-width: 1023px) {
   .place__website {
     width: 352px;
@@ -25,8 +25,8 @@
 /*до 768 пикселей — от большого смартфона до вертикального положения планшета*/
 @media all and (max-width: 767px) {
   .place__website {
-    width: 51vw;
-    margin: 0 auto 32px;
-    margin-left: 16px;
+    width: 288px;
+    margin-bottom: 32px;
+    align-self: center;
   }
 }

@@ -1,10 +1,9 @@
 .intro {
   max-width: 690px;
-  min-width: 320px;
+  min-width: 288px;
   margin: 92px auto 0;
-  padding-right: 294px;
+  padding-right: 266px;
 }
-
 
 /*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
 @media all and (max-width: 1023px) {
