@@ -17,7 +17,7 @@
 /*до 425 пикселей — мобильные устройства*/
 @media all and (max-width: 424px) {
   .header__lang-link {
-  font-size: 18px;
-  line-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
   }
 }

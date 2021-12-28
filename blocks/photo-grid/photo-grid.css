@@ -17,8 +17,8 @@
 /*от 1024 и до 1280 — для небольших ноутбуков*/
 @media all and (min-width: 1024px) and (max-width: 1279px)  {
   .photo-grid {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
   }
 }
 
