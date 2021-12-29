@@ -1,13 +1,12 @@
 .intro__text {
-    width: 100%;
-    margin: 40px 0 33px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 163%;
-    /* or 26px */
-    color: #FFFFFF;
+  width: 100%;
+  margin: 40px 0 33px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  /* or 26px */
+  color: #FFFFFF;
 }
 
 /*до 768 пикселей — до вертикального положения планшета*/
@@ -20,6 +19,6 @@
 /*до 330 пикселей */
 @media all and (max-width: 340px) {
   .intro__text {
-    width: 284px;
+    width: 288px;
   }
 }

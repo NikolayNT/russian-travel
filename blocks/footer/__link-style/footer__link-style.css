@@ -1,0 +1,22 @@
+.footer__link-style {
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.footer__link-style:hover {
+  opacity: 0.8;
+}
+
+/*до 768 пикселей — от большого смартфона до вертикального положения планшета*/
+@media all and (max-width: 767px) {
+  .footer__link-style {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
