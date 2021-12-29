@@ -1,6 +1,5 @@
 .lead__subtitle {
   max-width: 640px;
-  min-height: 40px;
   margin: 0 auto 64px;
   font-family: Inter;
   font-style: normal;
@@ -22,9 +21,9 @@
 /* до 768 пикселей — от большого смартфона до вертикального положения планшета*/
 @media all and (max-width: 767px) {
   .lead__subtitle {
-  font-size: 16px;
-  line-height: 20px;
-  width: 288px;
-  margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 288px;
+    margin-bottom: 40px;
   }
 }
