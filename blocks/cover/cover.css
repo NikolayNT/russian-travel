@@ -38,5 +38,6 @@
 @media all and (max-width: 425px) {
   .cover {
     min-height: 200px;
+    margin-top: 66px;
   }
 }

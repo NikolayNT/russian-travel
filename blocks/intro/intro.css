@@ -2,7 +2,16 @@
   max-width: 690px;
   min-width: 288px;
   margin: 92px auto 0;
-  padding-right: 266px;
+  /*padding-right: 266px;*/
+  padding-right: 294px;
+}
+
+/*от 1024 до 1080 пикселей*/
+@media all and (min-width: 1024px) and (max-width: 1080px) {
+  .intro {
+    padding-right: calc(100% - 786px);
+    margin: 92px 48px 0;
+  }
 }
 
 /*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
@@ -17,6 +26,6 @@
 /*до 425 пикселей — мобильные устройства*/
 @media all and (max-width: 424px) {
   .intro {
-    margin: 92px 16px 0;
+    margin: 64px 16px 0;
   }
 }

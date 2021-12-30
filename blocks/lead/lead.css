@@ -5,3 +5,18 @@
   min-width: 320px;
   margin: 0 auto;
 }
+
+/*до 1080 пикселей*/
+@media all and (min-width: 1024px) and (max-width: 1079px) {
+  .lead {
+    width: calc(100% - 96px);
+    margin: 0 48px;
+  }
+}
+
+/*до 1024 пикселей*/
+@media all and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}

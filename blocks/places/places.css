@@ -19,3 +19,10 @@
     width: 720px;
   }
 }
+
+/*до 425 пикселей*/
+@media all and (max-width: 425px) {
+  .places {
+    margin-top: 64px;
+  }
+}
