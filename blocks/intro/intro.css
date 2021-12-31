@@ -2,12 +2,11 @@
   max-width: 690px;
   min-width: 288px;
   margin: 92px auto 0;
-  /*padding-right: 266px;*/
   padding-right: 294px;
 }
 
-/*от 1024 до 1080 пикселей*/
-@media all and (min-width: 1024px) and (max-width: 1080px) {
+/*до 1080 пикселей*/
+@media all and (max-width: 1080px) {
   .intro {
     padding-right: calc(100% - 786px);
     margin: 92px 48px 0;
@@ -18,8 +17,8 @@
 @media all and (max-width: 1023px) {
   .intro {
     max-width: 100%;
-    margin: 92px 24px 0;
     padding-right: 0;
+    margin: 92px 24px 0;
   }
 }
 
@@ -29,3 +28,11 @@
     margin: 64px 16px 0;
   }
 }
+
+/*принято к сведению*/
+/*Контент секции intro будет проще выравнивать,
+если задать секции такую же ширину, как у lead (984px), 
+и центрировать его по горизонтали, а ограничение по ширине 
+в 690рх задать только для самого контента
+(можно отдельно для каждого элемента, а можно создать обертку внутри intro для этого), 
+который прижать к левому краю контейнера.*/

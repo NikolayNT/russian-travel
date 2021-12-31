@@ -11,8 +11,8 @@
   color: #FFFFFF;
 }
 
-/*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
-@media all and (min-width: 425px) and (max-width: 767px) {
+/*до 768 пикселей до вертикального положения планшета*/
+@media all and (max-width: 767px) {
   .cover__subtitle {
     width: 324px;
     font-size: 16px;
@@ -23,8 +23,8 @@
 /*до 425 пикселей — мобильные устройства*/
 @media all and (max-width: 424px) {
   .cover__subtitle {
+    width: 288px;
     font-size: 14px;
     line-height: 16px;
-    width: 288px;
   }
 }

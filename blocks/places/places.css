@@ -6,17 +6,17 @@
   margin: 92px auto 0;
 }
 
-/*от 1024 и до 1280 — для небольших ноутбуков*/
-@media all and (min-width: 1024px) and (max-width: 1279px)  {
+/*до 1280 — для небольших ноутбуков*/
+@media all and (max-width: 1279px)  {
   .places {
-    width: 928px;
+    max-width: 928px;
   }
 }
 
 /*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media all and (max-width: 1023px) {
   .places {
-    width: 720px;
+    max-width: 720px;
   }
 }
 

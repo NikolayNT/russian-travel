@@ -14,14 +14,14 @@
   margin-top: 0;
 }
 
-/*от 1024 и до 1280 — для небольших ноутбуков*/
-@media all and (min-width: 1024px) and (max-width: 1279px)  {
+/*до 1280 — для небольших ноутбуков*/
+@media all and (max-width: 1279px)  {
   .place__paragraph {
     width: 456px;
   }
 }
 
-/*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
+/*до 1024 пикселей — до горизонтального положения планшета*/
 @media all and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;

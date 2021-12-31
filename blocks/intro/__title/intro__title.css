@@ -9,8 +9,8 @@
   color: #FFFFFF;
 }
 
-/*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
-@media all and (min-width: 425px) and (max-width: 767px) {
+/*до 768 пикселей — до вертикального положения планшета*/
+@media all and (max-width: 767px) {
   .intro__title {
     font-size: 38px;
     line-height: 41.5px;
