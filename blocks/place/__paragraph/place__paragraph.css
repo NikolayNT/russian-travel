@@ -1,12 +1,11 @@
 .place__paragraph {
+  margin: 26px 0 0;
   max-width: 484px;
   min-width: 288px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
-  /* or 29px */
-  margin: 26px 0 0;
   color: #FFFFFF;
 }
 
@@ -24,9 +23,9 @@
 /*до 1024 пикселей — до горизонтального положения планшета*/
 @media all and (max-width: 1023px) {
   .place__paragraph {
-    font-size: 16px;
-    width: 352px;
     margin-top: 25px;
+    width: 352px;
+    font-size: 16px;
   }
 }
 
