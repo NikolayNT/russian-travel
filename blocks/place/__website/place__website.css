@@ -1,9 +1,9 @@
 .place__website {
   display: flex;
   flex-direction: column;
-  width: 456px;
-  margin-bottom: 48px;
   align-self: end;
+  margin-bottom: 48px;
+  width: 456px;
 }
 
 /*от 1280 пикселей — от стандартных ноутбуков и до бесконечности*/
