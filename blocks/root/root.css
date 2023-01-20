@@ -24,4 +24,10 @@
       background: blue;
     }
   }
+  
+   @media (max-device-width: 1024px) and (max-device-height: 1336px) and (orientation:portrait) { /* iPad Pro 12.9 */
+    .root {
+      background: white;
+    }
+  }
 }
