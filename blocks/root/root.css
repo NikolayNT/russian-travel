@@ -18,4 +18,10 @@
       background: green;
     }
   }
+  
+  @media (device-width: 1024px) and (device-height: 1336px) { /* iPad Pro 12.9 */
+    .root {
+      background: black;
+    }
+  }
 }
