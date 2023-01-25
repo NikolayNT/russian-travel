@@ -13,19 +13,19 @@
     background: red; 
   } 
  
-  @media all and (width: 1024px) and (height: 1336px) { /* iPad Pro 12.9 */ 
+  @media all and (width: 1024px) and (height: 1366px) { /* iPad Pro 12.9 */ 
     .root { 
       background: green; 
     } 
   } 
    
-  @media all and (max-device-width: 1024px) and (max-device-height: 1336px) { /* iPad Pro 12.9 */ 
+  @media all and (max-device-width: 1024px) and (max-device-height: 1366px) { /* iPad Pro 12.9 */ 
     .root { 
       background: blue; 
     } 
   } 
    
-   @media all and (max-device-width: 1024px) and (max-device-height: 1336px) and (orientation:portrait) { /* iPad Pro 12.9 */ 
+   @media all and (max-device-width: 1024px) and (max-device-height: 1366px) and (orientation:portrait) { /* iPad Pro 12.9 */ 
     .root { 
       background: white; 
     } 
