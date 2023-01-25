@@ -8,26 +8,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media all and (max-width: 1024px) {
-  .root {
-    background: red;
-  }
-
-  @media (width: 1024px) and (height: 1336px) { /* iPad Pro 12.9 */
-    .root {
-      background: green;
-    }
-  }
-  
-  @media (max-device-width: 1024px) and (max-device-height: 1336px) { /* iPad Pro 12.9 */
-    .root {
-      background: blue;
-    }
-  }
-  
-   @media (max-device-width: 1024px) and (max-device-height: 1336px) and (orientation:portrait) { /* iPad Pro 12.9 */
-    .root {
-      background: white;
-    }
-  }
+@media all and (max-width: 1024px) { 
+  .root { 
+    background: red; 
+  } 
+ 
+  @media all and (width: 1024px) and (height: 1336px) { /* iPad Pro 12.9 */ 
+    .root { 
+      background: green; 
+    } 
+  } 
+   
+  @media all and (max-device-width: 1024px) and (max-device-height: 1336px) { /* iPad Pro 12.9 */ 
+    .root { 
+      background: blue; 
+    } 
+  } 
+   
+   @media all and (max-device-width: 1024px) and (max-device-height: 1336px) and (orientation:portrait) { /* iPad Pro 12.9 */ 
+    .root { 
+      background: white; 
+    } 
+  } 
 }
